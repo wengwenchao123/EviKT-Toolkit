@@ -1,0 +1,68 @@
+program: ./wandb_keenkt_train.py
+method: bayes
+metric:
+    goal: maximize
+    name: validauc
+parameters:
+    dataset_name:
+        values: ["assist2009"]
+    model_name:
+        values: ["keenkt"]
+    emb_type:
+        values: ["stoc_qid"]
+    use_question_difficulty:
+        values: [1]
+    save_dir:
+        values: ["saved_model_keenkt_edl"]
+    seed:
+        values: [3407]
+    fold:
+        values: [0]
+    batch_size:
+        values: [64]
+    num_epochs:
+        values: [200]
+    dropout:
+        values: [0.2]
+    d_model:
+        values: [256]
+    d_ff:
+        values: [512]
+    num_attn_heads:
+        values: [8]
+    n_blocks:
+        values: [4]
+    final_fc_dim:
+        values: [256]
+    final_fc_dim2:
+        values: [256]
+    learning_rate:
+        values: [0.0001]
+    kq_same:
+        values: [1]
+    atten_type:
+        values: ["w2"]
+    use_CL:
+        values: [1]
+    cl_weight:
+        values: [0.02]
+    use_uncertainty_aug:
+        values: [1]
+    use_diffusion:
+        values: [1]
+    diffusion_weight:
+        values: [0.08]
+    noise_level:
+        values: [0.3]
+    use_edl:
+        values: [1]
+    edl_annealing_step:
+        values: [10]
+    edl_loss_type:
+        values: ["mse"]
+    num_classes:
+        values: [2]
+    use_wandb:
+        values: [0]
+    add_uuid:
+        values: [0]
