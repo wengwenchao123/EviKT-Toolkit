@@ -1,0 +1,13 @@
+{
+    "statics2011": {
+        "dkvmn": {
+            "model_path_fold_first": [
+                ".//models/dkvmn_tiaocan_statics2011/statics2011_dkvmn_qid_models/dkvmn_tiaocan_statics2011_3407_4_0.1_256_0.001_32_1_1_dd719a14-ed18-40fd-bac3-42460cb77e0e/",
+                ".//models/dkvmn_tiaocan_statics2011/statics2011_dkvmn_qid_models/dkvmn_tiaocan_statics2011_3407_3_0.05_256_0.001_32_1_1_7f9d6e5c-aa4e-4626-baea-a6a0a46ca6b7/",
+                ".//models/dkvmn_tiaocan_statics2011/statics2011_dkvmn_qid_models/dkvmn_tiaocan_statics2011_42_2_0.05_64_0.001_32_1_1_a9c178c3-55c6-45cc-82f9-de0f66066f47/",
+                ".//models/dkvmn_tiaocan_statics2011/statics2011_dkvmn_qid_models/dkvmn_tiaocan_statics2011_3407_1_0.3_256_0.001_32_1_1_27256c3d-83c5-40f9-bb84-8efb2f4bb2fb/",
+                ".//models/dkvmn_tiaocan_statics2011/statics2011_dkvmn_qid_models/dkvmn_tiaocan_statics2011_3407_0_0.05_256_0.001_32_1_1_322831ee-e74a-4559-bcde-9537fe1380d6/"
+            ]
+        }
+    }
+}
