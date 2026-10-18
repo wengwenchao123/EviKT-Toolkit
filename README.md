@@ -6,7 +6,6 @@ EviKT Toolkit extends pyKT with Evidential Deep Learning (EDL) support for multi
 
 The toolkit provides data preprocessing, model training, independent testing, and uncertainty evaluation. It supports comparisons of predictive performance and analysis of whether models assign higher uncertainty to incorrect predictions.
 
-> EviKT Toolkit is the display name of this repository. The Python import path remains `pykt`, and the package metadata still uses `pykt-toolkit`. Install from this source tree to use the EDL implementations provided here.
 
 ## Features
 
